@@ -143,6 +143,3 @@ if __name__ == '__main__':
     directory = os.getcwd()
     print("[+] File output : ", directory+"\\"+out+".exe")
 
-    if args.upx:
-        os.system(f'upx --best {out}.exe')
-
